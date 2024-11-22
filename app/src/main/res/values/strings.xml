@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">proyecto_final_programacion_movil</string>
+    <string name="Home">Inicio</string>
+    <string name="Chats">Chats</string>
+    <string name="Perfil">Perfil</string>
+    <string name="Filtros">Filtros</string>
+
+</resources>

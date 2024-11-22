@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "753739068275",
+    "project_id": "proyecto-final-movil-c20db",
+    "storage_bucket": "proyecto-final-movil-c20db.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753739068275:android:bf2d19177726fffab68b06",
+        "android_client_info": {
+          "package_name": "com.misoft.proyecto_final_programacion_movil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzW5NQHz5wZPESb6pzeKVFKxhb1Aw6uUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

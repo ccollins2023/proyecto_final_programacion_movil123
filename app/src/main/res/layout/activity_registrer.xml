@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.RegistrerActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <io.github.florent37.shapeofview.shapes.ArcView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:elevation="4dp"
+                app:shape_arc_height="20dp"
+                app:shape_arc_position="bottom"
+                >
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/red"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="REGISTRATE AHORA"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_person"
+                    android:layout_marginTop="40dp"
+
+
+                    />
+
+            </io.github.florent37.shapeofview.shapes.ArcView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_mail"
+                    android:layout_marginRight="5dp"/>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:boxBackgroundMode="none"
+
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etUsuario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Usuario"
+                        android:inputType="textEmailAddress"
+                        android:singleLine="true"
+                        >
+
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_mail"
+                    android:layout_marginRight="5dp"/>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:boxBackgroundMode="none"
+
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etCorreo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="CorreoElectronico"
+                        android:inputType="textEmailAddress"
+                        android:singleLine="true"
+                        >
+
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_mail"
+                    android:layout_marginRight="5dp"/>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:boxBackgroundMode="none"
+
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Contraseña"
+                        android:inputType="textPassword"
+                        android:singleLine="true"
+                        >
+
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_mail"
+                    android:layout_marginRight="5dp"/>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:boxBackgroundMode="none"
+
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etPassword1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Repetir Contraseña"
+                        android:inputType="textEmailAddress"
+                        android:singleLine="true"
+                        >
+
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    <Button
+        android:id="@+id/btRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRATE"
+        android:layout_gravity="bottom"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/red_OSC"
+        />
+    <ImageView
+        android:id="@+id/circuloBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_back"
+        android:background="@drawable/circular_background"
+        android:padding="7dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="15dp"
+        />
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
